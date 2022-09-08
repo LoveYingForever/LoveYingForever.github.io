@@ -1,0 +1,27 @@
+.bg{
+    position: absolute;
+    width: 1000px; /*设置元素宽度*/
+    height: 100px; /*设置元素高度*/
+    margin: 0px auto;
+    top: 30px; /*设置元素上内边距*/
+    padding-left: 220px;
+}
+.shine{
+    width: 800px;
+    font-family: "Microsoft YaHei";
+    font-size: 40px;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #0f0, #00f) 0 0 no-repeat;/*设置线性渐变*/
+    -webkit-background-size: 160px;                        /*设置背景大小*/
+    -webkit-background-clip: text;                            /*背景被裁剪到文字*/
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.3);        /*设置文字的填充颜色*/
+    -webkit-animation: shine 3s infinite;                    /*设置动画*/
+}
+@-webkit-keyframes shine{   /*创建动画*/
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}

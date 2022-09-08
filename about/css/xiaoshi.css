@@ -1,0 +1,16 @@
+.ddd {
+    position: absolute;
+    font-family: "华文楷体"; /*设置字体*/
+    width: 200px; /*设置元素宽度*/
+    margin: 10px auto; /*设置外边距*/
+    padding: 30px; /*设置内边距*/
+    left:1250px;
+    top:600px;
+    text-align: center; /*设置文字居中*/
+    writing-mode: vertical-rl; /*设置以垂直方式从右向左显示*/
+}
+.h13{
+     font-family: "Arial Black";
+     font-size: 20px;
+    color: #ea9e09;
+}
